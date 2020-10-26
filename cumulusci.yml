@@ -16,6 +16,12 @@ project:
         repo_dir: ApexDocumentation
 
 tasks:
+    sleep_3:
+        description: sleeps for 3 seconds
+        group: Useless
+        class_path: cumulusci.tasks.util.Sleep
+        options:
+            seconds: 3
     github_automerge_feature:
         options:
             update_future_releases: true
