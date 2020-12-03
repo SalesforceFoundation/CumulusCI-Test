@@ -30,6 +30,7 @@ Via UI
     Populate Form
     ...                   First Name=${first_name}
     ...                   Last Name=${last_name}
+    Capture page screenshot
     Click Modal Button    Save
 
     Wait Until Modal Is Closed
