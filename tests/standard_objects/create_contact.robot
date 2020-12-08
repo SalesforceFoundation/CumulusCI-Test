@@ -36,6 +36,7 @@ Via UI
     ...                   Last Name=${last_name}
     Capture page screenshot
     Click Modal Button    Save
+    Capture page screenshot
 
     Wait Until Modal Is Closed
 
