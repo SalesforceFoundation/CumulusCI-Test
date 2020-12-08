@@ -6,7 +6,7 @@ Library         cumulusci.robotframework.PageObjects
 Suite Setup     Run Keywords
 ...             Open Test Browser
 ...             Capture page screenshot
-
+...             Capture page screenshot
 
 Suite Teardown  Delete Records and Close Browser
 
