@@ -3,7 +3,11 @@
 Resource        cumulusci/robotframework/Salesforce.robot
 Library         cumulusci.robotframework.PageObjects
 
-Suite Setup     Open Test Browser
+Suite Setup     Run Keywords
+...             Open Test Browser
+...             Capture page screenshot
+
+
 Suite Teardown  Delete Records and Close Browser
 
 
